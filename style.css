@@ -1,0 +1,49 @@
+@media (max-width: 575px) {
+  .search {
+    display: none !important;
+  }
+  button {
+    position: fixed;
+    right: 10px;
+    top: 8px;
+  }
+}
+
+nav {
+  background-color: #a5fc03;
+  font-weight: 600;
+  box-shadow: 1px 1px 10px #a5fc03;
+}
+
+nav .container .nav-link {
+  color: black;
+}
+
+nav .container .nav-link:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 33.3%;
+  right: 33.3%;
+  /* border: 1px solid black; */
+  border-bottom: 2px solid black;
+}
+
+nav .container .nav-link:hover {
+  display: block;
+  /* border: 1px solid black; */
+  width: min-content;
+}
+
+nav .container .navbar-nav .nav-link {
+  position: relative;
+}
+
+.form-control:focus {
+  /* outline: none; */
+  border: 1px solid #e3e3e3;
+  box-shadow: 1px 1px #c4c4c4;
+}
+
+.container {
+}
